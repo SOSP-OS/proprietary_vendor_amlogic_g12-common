@@ -17,16 +17,16 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_000d_Product_3838.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_000d_Product_3838.kl \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_000d_Product_3839.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_000d_Product_3839.kl \
     vendor/amlogic/g12-common/proprietary/odm/usr/keylayout/Vendor_7545_Product_0021.kl:$(TARGET_COPY_OUT_ODM)/usr/keylayout/Vendor_7545_Product_0021.kl \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/com.google.android.tv.dfuservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.tv.dfuservice.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-atv-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-atv-product.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-deadpool.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-deadpool.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google-lineage.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-lineage.xml \
-    vendor/amlogic/g12-common/proprietary/product/etc/sysconfig/google_atv.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google_atv.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/com.google.android.tv.dfuservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.google.android.tv.dfuservice.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/privapp-permissions-atv-product.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-atv-product.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/privapp-permissions-deadpool.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-deadpool.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-google-p.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/split-permissions-google.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/sysconfig/google-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/google-hiddenapi-package-whitelist.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/sysconfig/google-lineage.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/google-lineage.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/sysconfig/google_atv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/google_atv.xml \
     vendor/amlogic/g12-common/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
-    vendor/amlogic/g12-common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml \
+    vendor/amlogic/g12-common/proprietary/vendor/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-google-se.xml \
     vendor/amlogic/g12-common/proprietary/vendor/bin/DecInfo_test:$(TARGET_COPY_OUT_VENDOR)/bin/DecInfo_test \
     vendor/amlogic/g12-common/proprietary/vendor/bin/ddrtest.sh:$(TARGET_COPY_OUT_VENDOR)/bin/ddrtest.sh \
     vendor/amlogic/g12-common/proprietary/vendor/bin/esplayer:$(TARGET_COPY_OUT_VENDOR)/bin/esplayer \

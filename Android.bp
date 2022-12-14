@@ -8,37 +8,37 @@ soong_namespace {
 android_app_import {
 	name: "Adt3LauncherCustomization",
 	owner: "amlogic",
-	apk: "proprietary/product/priv-app/Adt3LauncherCustomization/Adt3LauncherCustomization.apk",
+	apk: "proprietary/vendor/priv-app/Adt3LauncherCustomization/Adt3LauncherCustomization.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
+	soc_specific: true,
 }
 
 android_app_import {
 	name: "DeadpoolService",
 	owner: "amlogic",
-	apk: "proprietary/product/priv-app/DeadpoolService/DeadpoolService.apk",
+	apk: "proprietary/vendor/priv-app/DeadpoolService/DeadpoolService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
+	soc_specific: true,
 }
 
 android_app_import {
 	name: "DfuService",
 	owner: "amlogic",
-	apk: "proprietary/product/priv-app/DfuService/DfuService.apk",
+	apk: "proprietary/vendor/priv-app/DfuService/DfuService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
-	product_specific: true,
+	soc_specific: true,
 }
 
 dex_import {
